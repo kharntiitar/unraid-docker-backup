@@ -1,0 +1,13 @@
+root@Kryten:~# docker ps
+CONTAINER ID        IMAGE                           COMMAND                CREATED             STATUS              PORTS                                                                                                  NAMES
+2398031f4dcb        needo/couchpotato:latest        "/sbin/my_init"        44 hours ago        Up 44 hours         0.0.0.0:8981->5050/tcp                                                                                 CouchPotato         
+30c848bcc685        needo/nzbdrone:latest           "/sbin/my_init"        2 days ago          Up 44 hours         0.0.0.0:8989->8989/tcp                                                                                 Sonarr              
+bc7f06d3f4f9        needo/sabnzbd:latest            "/sbin/my_init"        2 days ago          Up 44 hours         0.0.0.0:8980->8080/tcp                                                                                 SABnzbd             
+30c7b9ad714f        needo/plex:latest               "/sbin/my_init"        2 days ago          Up 18 hours                                                                                                                plex                
+240dd8e5ef0b        sparklyballs/filezilla:latest   "/sbin/my_init"        2 days ago          Up 44 hours         0.0.0.0:8985->8080/tcp                                                                                 Filezilla           
+a09739d1c190        aptalca/docker-duckdns:latest   "/sbin/my_init"        2 days ago          Up 44 hours                                                                                                                Duckdns             
+6de7aa356271        binhex/arch-deluge:latest       "supervisord -c /etc   2 days ago          Up 44 hours         0.0.0.0:58846->58846/tcp, 0.0.0.0:58946->58946/tcp, 0.0.0.0:58946->58946/udp, 0.0.0.0:8983->8112/tcp   Deluge              
+6a6201c0d015        aptalca/docker-calibre:latest   "/opt/calibre/calibr   12 days ago         Up 44 hours         0.0.0.0:8987->8080/tcp                                                                                 Calibre-server      
+root@Kryten:~# 
+
+
