@@ -6,7 +6,8 @@ import os, re, subprocess, datetime
 ##### EDIT ME CONFIG ######
 backuproot = "/mnt/user/Backups/"
 configroot = "/mnt/cache/config/"
-# Constants
+
+# Variables
 now = datetime.datetime.now()
 date = str(now.year)+str(now.month)+str(now.day)+"-"+str(now.hour)+str(now.minute)
 backupdir = backuproot + date
